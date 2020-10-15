@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .container{
   width: 80%;
   margin: auto;
@@ -33,6 +37,66 @@
   height: 75px;
 }
 
+.navbar a{
+  line-height: 75px;
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  margin: 0 8px;
+}
+.nav_logo{
+  width: 15%;
+}
+.nav_logo img{
+  line-height: 75;
+  margin-top: 11px;
+}
+.nav_index{
+  width: 55%;
+  padding: 0 20px;
+}
+.nav_index a:hover{
+  color: orange;
+}
+.nav_login{
+  width: 30%;
+  text-align: right;
+}
+
+
+
+.button{
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.login{
+  border: 1px solid white;
+}
+
+.hero_ban{
+  height: 475px;
+  position: relative;
+  background-image: url('../img/banner_header.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.title_ban{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+.title_ban h2{
+  margin-top: 20px;
+}
+
+
+
 
 .first_line::after, .second_line::after{
   content: "";
@@ -60,10 +124,6 @@
 
 #site_header{
   height: 550px;
-  background-image: url('../img/banner_header.png');
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: right bottom;
 }
 
 #site_content{
