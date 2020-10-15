@@ -64,7 +64,9 @@ body{
   width: 30%;
   text-align: right;
 }
-
+.login{
+  border: 1px solid white;
+}
 
 
 .button{
@@ -72,27 +74,43 @@ body{
   padding: 10px 10px;
 }
 
-.login{
-  border: 1px solid white;
-}
 
 .hero_ban{
-  height: 475px;
   position: relative;
-  background-image: url('../img/banner_header.png');
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  height: 475px;
 }
 
-.title_ban{
+.hero_title{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   color: white;
+  width: 50%;
 }
-.title_ban h2{
-  margin-top: 20px;
+
+.hero_title h1{
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.hero_title a{
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+}
+
+.bigline{
+  height: 150px;
+  text-align: center;
+  position: relative;
+}
+
+.bigline_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -102,9 +120,6 @@ body{
   content: "";
   display: table;
   clear: both;
-}
-.bigline{
-  height: 150px;
 }
 
 .c4{
@@ -124,6 +139,10 @@ body{
 
 #site_header{
   height: 550px;
+  background-image: url('../img/banner_header.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 120% 110%;
 }
 
 #site_content{
