@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILITY CLASS */
+.blue{
+  background: #0c325a;
+}
+.green{
+  background: #7cbb02;
+}
+.grey{
+  background: #d3d3d3
+}
+p{
+  color: violet;
+}
+.fl{
+  float: left;
+}
+
+.navbar::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar{
+  height: 80px;
+}
+
+.first_line::after, .second_line::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.bigline{
+  height: 200px;
+  background-color: grey;
+}
+
+.c4{
+  height: 400px;
+  width: 33.3%;
+  background-color: lightgreen;
+  border: 1px solid black;
+}
+
+.c6{
+  height: 400px;
+  width: 50%;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+
+
+#site_header{
+  height: 500px;
+}
+
+#site_content{
+  height: 1000px;
+}
+
+#site_footer{
+  height: 150px;
+}
